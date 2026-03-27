@@ -2,6 +2,8 @@
 
 ## Description
 
+BeeMode 让你的 OpenClaw 像蜜蜂一样不停执行任务——不受上下文 token 限制，不被中途 EOS（end of speech）中断。
+
 BeeMode is a multi-agent orchestration system for OpenClaw that enables:
 - **Sequential / Parallel / Conditional** execution modes
 - **Dynamic task injection** (inject_now) mid-workflow

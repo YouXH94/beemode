@@ -1,6 +1,7 @@
 # 🐝 BeeMode
 
-> OpenClaw multi-agent orchestration toolkit.
+> 让你的 OpenClaw 像蜜蜂一样不停执行任务，不受上下文限制与中途 EOS 困扰。
+> Make your OpenClaw execute tasks relentlessly like a bee — free from context limits and mid-stream EOS.
 
 A lightweight Python library for orchestrating multi-step, multi-agent workflows
 using OpenClaw's `sessions_spawn` API. Designed for developers who want reliable
