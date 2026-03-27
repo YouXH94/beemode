@@ -82,11 +82,11 @@ bee.stop(reason="用户在QQ发了停止")
 ```python
 phases = [
     {
-        "name": "Phase-1: 数值调整",
+        "name": "Phase-1: 分析与规划",
         "workers": [
             {
-                "name": "tuner",           # display name
-                "action": "调整参数",      # short summary
+                "name": "planner",         # display name
+                "action": "制定计划",       # short summary
                 "task": "详细prompt给sub-agent",
                 "condition": "build_pass", # optional unlock gate
             },

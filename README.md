@@ -54,12 +54,12 @@ bee.run_phases(YOUR_PHASES)
 ```python
 phases = [
     {
-        "name":   "Phase-1: 数值调整",
+        "name":   "Phase-1: 分析与规划",
         "workers": [
             {
-                "name":     "tuner",
-                "action":   "调整战斗数值",
-                "task":     "Read src/gameplay/combat/CombatTuning.ts, adjust parameters...",
+                "name":     "planner",
+                "action":   "制定工作计划",
+                "task":     "Read the project spec, analyze requirements, output a plan.",
             },
         ],
         "loops": 3,            # repeat this phase 3 times
